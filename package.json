@@ -1,0 +1,14 @@
+{
+  "name": "ahp-shipyard-decision-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AHP Shipyard Decision System siap pakai: backend Express+SQLite+auth + frontend Next.js + grafik dashboard",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend start",
+    "build": "npm --prefix frontend run build"
+  }
+}

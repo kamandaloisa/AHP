@@ -1,0 +1,21 @@
+{
+  "name": "ahp-shipyard-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend AHP Shipyard Decision System: Express + SQLite + auth token",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node server.js --seed"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
